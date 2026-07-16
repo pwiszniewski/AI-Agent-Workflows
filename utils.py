@@ -15,7 +15,8 @@ client = AsyncOpenAI(
 async def ask_agent(
     prompt: str,
     instructions: str = "You are a helpful assistant.",
-    model: str = "gemini-3.5-flash",
+    # model: str = "gemini-3.5-flash",
+    model: str = "gemini-3.1-flash-lite",
     name:str = 'Agent',
     model_settings=None,
     output_type=None,
