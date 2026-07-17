@@ -67,7 +67,8 @@ agent = Agent(
         name=name,
         instructions=instructions,
         model=OpenAIChatCompletionsModel(
-            model="gemini-3.1-flash-lite",
+            # model="gemini-3.1-flash-lite",
+            model="gemini-3.5-flash",
             openai_client=client,
         ),
         model_settings=ModelSettings(
@@ -90,4 +91,5 @@ with trace("Chapter 2 Tool Demo"):
         input=input,
     )
 
+# print(f'{result=}')
 print(result.final_output)
