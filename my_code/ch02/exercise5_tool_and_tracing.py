@@ -14,7 +14,7 @@ load_dotenv()
 # **TASK INSTRUCTIONS**
 # - You will be given a research topic.
 # - Your task is to provide a plan on how to research this topic.
-# - Output 5 concise tasks (5 words or less) to your plan.
+# - Output 5 concise tas        ks (5 words or less) to your plan.
 # """
 
 instructions = """
