@@ -1,0 +1,6 @@
+claude mcp add my-server python 03_mcp_agent_sse_server.py # dodanie serwera
+claude mcp add --transport http my-server-http python 03_mcp_agent_sse_server.py # dodanie serwera http
+
+mcp dev 01_claude_mcp_server.py  # eksplorowanie dev mode      
+
+claude mcp list # lista serwerów
