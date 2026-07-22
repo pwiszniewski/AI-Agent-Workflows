@@ -11,7 +11,6 @@ def get_research_sources() -> list[str]:
         "Wikipedia",
         "Google",
         "YouTube",
-        # "yahoo" # exercise 2
     ]
     return search_sources
 
