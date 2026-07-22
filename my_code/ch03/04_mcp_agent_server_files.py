@@ -1,6 +1,4 @@
 
-from agents import Agent
-
 from agents import Agent, Runner
 from agents.mcp import MCPServerStdio, MCPServerStdioParams
 
