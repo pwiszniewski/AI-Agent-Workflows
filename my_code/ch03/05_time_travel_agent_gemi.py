@@ -52,7 +52,7 @@ travel_events = [
 async def main():
     print("Recording travels:")
     for event in travel_events:
-        await Runner.run(agent, event)
+        await Runner.run(starting_agent=agent, input=event)
     # Ask the agent to summarize the adventures
     result = await Runner.run(agent, "Show my travel history")
     print("\nFinal Journal:")

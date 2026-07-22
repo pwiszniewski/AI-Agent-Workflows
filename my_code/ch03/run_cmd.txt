@@ -4,3 +4,8 @@ claude mcp add --transport http my-server-http python 03_mcp_agent_sse_server.py
 mcp dev 01_claude_mcp_server.py  # eksplorowanie dev mode      
 
 claude mcp list # lista serwerów
+
+## uruchomienie serwera
+mcp run nazwa.py
+# lub po prostu
+python nazwa.py
