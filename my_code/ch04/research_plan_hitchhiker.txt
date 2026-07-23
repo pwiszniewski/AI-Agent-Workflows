@@ -17,5 +17,11 @@ Step 3: Digital Copy Search
 - Check Audiobook platforms (Audible, Libro.fm)
 - Confirm availability via local library digital apps (Libby/Overdrive)
 
-Step 4: Consolidation
+Step 4: Pro-Tips for Search Efficiency
+- Audiobook Distinction: Specify narrator (Stephen Fry vs. Douglas Adams) based on preference.
+- Omnibus Editions: Consider "The Ultimate Hitchhiker's Guide to the Galaxy" for cost-efficiency.
+- Interlibrary Loan (ILL): Use for library access if unavailable locally.
+- "Waitlist" Strategy: Use "Place Hold" on Libby/OverDrive for high-turnover classics.
+
+Step 5: Consolidation
 - Compile the findings into a list of URLs and local resource references for the user.

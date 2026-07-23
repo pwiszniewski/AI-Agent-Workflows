@@ -1,0 +1,30 @@
+# Research Plan: Procuring Douglas Adams' "The Hitchhiker's Guide to the Galaxy" (Prose Novel)
+
+## Objective
+To successfully locate and procure the definitive prose novel version of *The Hitchhiker's Guide to the Galaxy* by Douglas Adams, ensuring it is distinguished from the radio, television, and film adaptations.
+
+## Phase 1: Identification & Validation
+*   **Goal:** Confirm criteria for the prose novel.
+*   **Actions:**
+    *   Verify ISBN/Metadata: Use ISBN as the primary identifier for the novel.
+    *   Author Verification: Ensure Douglas Adams is listed as the sole author.
+    *   Content Check: Confirm the format is a novel rather than a scriptbook.
+
+## Phase 2: Availability & Sourcing
+*   **Goal:** Determine availability based on user format preference.
+*   **Actions:**
+    *   Define Format Preference: Identify if the user requires Physical, E-book, or Audiobook.
+    *   Local Search: Use library systems (WorldCat) based on user location (zip code).
+    *   Retail Search: Filter retail listings based on preferred format and edition (e.g., mass-market paperback, collectible hardcover).
+
+## Phase 3: Multimedia Verification
+*   **Goal:** Avoid misidentification of non-novel adaptations.
+*   **Actions:**
+    *   Check publication details against known scriptbook ISBNs.
+    *   Cross-reference edition information with retail/library metadata.
+
+## Phase 4: Final Selection & Procurement
+*   **Goal:** Finalize purchase or borrow request.
+*   **Actions:**
+    *   Present verified options to the user.
+    *   Provide direct links or instructions for acquisition.
