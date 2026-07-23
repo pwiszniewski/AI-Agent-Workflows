@@ -1,0 +1,39 @@
+## Research Plan: Finding "The Hitchhiker's Guide to the Galaxy"
+
+This plan outlines the steps to identify, locate, and evaluate different versions of Douglas Adams' "The Hitchhiker's Guide to the Galaxy" using Wikipedia, Google, and YouTube.
+
+### Phase 1: Metadata & Identification (Wikipedia)
+**Goal:** Establish the exact details of the book to ensure the correct item is found.
+*   **Search Terms:** "The Hitchhiker's Guide to the Galaxy (novel)"
+*   **Key Tasks:**
+    *   Confirm the author (Douglas Adams) and the original publication year (1979).
+    *   Identify the book’s position in the series (e.g., Book 1 of the "trilogy of five").
+    *   Note major publishers (e.g., Pan Books, Harmony Books) and ISBNs for various editions.
+    *   Check for significant editions (e.g., 25th Anniversary, Illustrated Edition) to narrow down preferences.
+
+### Phase 2: Location & Procurement (Google)
+**Goal:** Find physical and digital retailers or repositories where the book is available.
+*   **Search Terms:** 
+    *   `"The Hitchhiker's Guide to the Galaxy" buy online`
+    *   `"The Hitchhiker's Guide to the Galaxy" local library availability`
+    *   `"The Hitchhiker's Guide to the Galaxy" ebook Kindle`
+*   **Key Tasks:**
+    *   **Commercial Search:** Identify pricing and availability on platforms like Amazon, Barnes & Noble, and AbeBooks (for used/collectible copies).
+    *   **Library Search:** Use Google to find the book in local library networks or via digital lending services like Libby/OverDrive.
+    *   **Format Verification:** Locate links for Hardcover, Paperback, E-book, and Audiobook formats.
+
+### Phase 3: Visual & Audio Evaluation (YouTube)
+**Goal:** Review specific editions and formats to decide which version to acquire.
+*   **Search Terms:** 
+    *   `"The Hitchhiker's Guide to the Galaxy" book review`
+    *   `"The Hitchhiker's Guide to the Galaxy" illustrated edition flip-through`
+    *   `"The Hitchhiker's Guide to the Galaxy" audiobook sample Stephen Fry vs Martin Freeman`
+*   **Key Tasks:**
+    *   **Edition Quality:** Watch "unboxing" or "bookshelf tour" videos to assess the print quality and illustrations of special editions.
+    *   **Audiobook Selection:** Listen to narrator samples to determine a preference between the various famous recordings.
+    *   **Content Summary:** Briefly watch a summary or "Should You Read" video to confirm the edition matches interest (e.g., the standalone novel vs. the "Ultimate" omnibus).
+
+### Phase 4: Final Selection & Execution
+**Goal:** Consolidate findings to make the final "find."
+*   **Action:** Compare the price points found on Google with the aesthetic preferences found on YouTube and the bibliographic accuracy from Wikipedia.
+*   **Output:** Select the specific ISBN/Format and proceed to the identified source (Library or Retailer) to acquire the book.

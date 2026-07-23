@@ -18,6 +18,8 @@ client = AsyncOpenAI(
     api_key=os.getenv("GEMINI_API_KEY"),
     base_url="https://generativelanguage.googleapis.com/v1beta/openai/",
 )
+model_name = 'gemini-3-flash-preview'
+# model_name = 'gemini-3.6-flash'
 
 async def main():
     class ResearchSourcesModel(BaseModel):
@@ -34,8 +36,9 @@ async def main():
         Do not make up or invent any research sources.
         """,
         model=OpenAIChatCompletionsModel(
-                    model="gemini-3.5-flash",
+                    # model="gemini-3.5-flash",
                     # model="gemini-3.1-flash-lite",
+                    model=model_name,
                     openai_client=client,
                 ),
     )
@@ -46,8 +49,9 @@ async def main():
         Your role is to plan the research.
         """,
         model=OpenAIChatCompletionsModel(
-                    model="gemini-3.5-flash",
+                    # model="gemini-3.5-flash",
                     # model="gemini-3.1-flash-lite",
+                    model=model_name,
                     openai_client=client,
                 ),
     )
@@ -59,8 +63,9 @@ async def main():
         Never make up or invent any ouput.
         """,
         model=OpenAIChatCompletionsModel(
-                    model="gemini-3.5-flash",
+                    # model="gemini-3.5-flash",
                     # model="gemini-3.1-flash-lite",
+                    model=model_name,
                     openai_client=client,
                 ),
     )
@@ -96,8 +101,8 @@ async def main():
         servers[2] as fs_srv,
     ):
         goal = """
-Produce a research plan to find the book 'The Hitchhiker's Guide to the Galaxy'
-"""
+        Produce a research plan to find the book 'The Hitchhiker's Guide to the Galaxy'
+        """
         print("Running...", goal)
         research_agent.mcp_servers = [research_srv]
         result = await Runner.run(research_agent, goal)
@@ -112,6 +117,7 @@ Produce a research plan to find the book 'The Hitchhiker's Guide to the Galaxy'
             )
             result = await Runner.run(thinking_agent, str(agent_input))
             research_plan = result.final_output
+            print(f'{research_plan=}')
         else:
             research_plan = "No research sources found and no plan was created."
         filesystem_agent.mcp_servers = [fs_srv]
@@ -120,7 +126,7 @@ Produce a research plan to find the book 'The Hitchhiker's Guide to the Galaxy'
             goal=goal,
         )
         result = await Runner.run(filesystem_agent, str(agent_input))
-        print(result.final_output)
+        print(f'{result.final_output=}')
 
 
 if __name__ == "__main__":
