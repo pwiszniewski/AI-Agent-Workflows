@@ -1,0 +1,25 @@
+Research Plan: Finding 'The Hitchhiker's Guide to the Galaxy'
+
+1. Bibliographic Verification
+   - Confirm author: Douglas Adams.
+   - Verify original publication year (1979) and key editions.
+   - Identify primary ISBNs for original and popular reprint editions.
+
+2. Resource Identification (Physical)
+   - Search major library databases (e.g., WorldCat) for locations of physical copies.
+   - Query inventory of reputable online used and new bookstores.
+   - Contact specialized sci-fi/fantasy book retailers.
+
+3. Resource Identification (Digital)
+   - Search major e-book distribution platforms (e.g., Kindle, Apple Books, Kobo).
+   - Check public digital libraries and archives (e.g., Internet Archive, Project Gutenberg - though checking copyright status).
+   - Verify presence in major online audiobook repositories (e.g., Audible).
+
+4. Data Collection and Organization
+   - Maintain a master spreadsheet of sources, categorized by medium (Physical/Digital).
+   - Record ISBNs, edition details, store/library name, link, and price/availability.
+
+5. Analysis and Reporting
+   - Synthesize data to determine the most accessible version.
+   - Compile a summary report detailing where the book can be found, providing direct links or directions for acquisition.
+   - Create a final list of recommended sources based on price, availability, and edition quality.

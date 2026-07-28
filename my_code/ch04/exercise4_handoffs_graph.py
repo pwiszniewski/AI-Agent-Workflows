@@ -122,7 +122,7 @@ async def main():
             """
 
         # rysowanie wykresu
-        draw_graph(research_agent).render(view=True) # reasearch agent nie wywołuje bezpośrednio filesystem agent, ale przez thinking agenta
+        draw_graph(research_agent).render(view=True) 
         
         print("Running...", goal)
         result = await Runner.run(
@@ -134,3 +134,6 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
+
+## NOTE
+# reasearch agent nie wywołuje bezpośrednio filesystem agent, ale przez thinking agenta
