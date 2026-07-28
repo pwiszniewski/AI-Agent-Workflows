@@ -1,15 +1,20 @@
-Research Plan for 'The Hitchhiker's Guide to the Galaxy'
+Research Plan: 'The Hitchhiker's Guide to the Galaxy'
 
-Objective: Locate and identify access/purchase points for the book 'The Hitchhiker's Guide to the Galaxy'.
+1. Objective: Identify and locate the book 'The Hitchhiker's Guide to the Galaxy' by Douglas Adams.
 
-Research Steps:
-1. Verification: Confirm essential bibliographic information for 'The Hitchhiker's Guide to the Galaxy' (Author: Douglas Adams, Original Publication Year, Genre).
-2. Resource Identification: Identify reliable sources to find the book.
-   - Public/Academic Libraries: Check online catalogs (e.g., WorldCat).
-   - Retailers: Search major online book retailers (e.g., Amazon, Barnes & Noble, local bookstores).
-   - Digital Platforms: Check e-book and audiobook distributors (e.g., Kindle, Audible, Project Gutenberg - if public domain, though this specific work is generally copyright-protected).
-3. Format Filtering: Differentiate between available formats:
-   - Hardcover/Paperback (Physical)
-   - E-book (Digital)
-   - Audiobook (Audio)
-4. Synthesis: Compile all gathered information, including ISBNs if possible, to provide a comprehensive list of where the book can be obtained or accessed.
+2. Research Steps:
+    a. Bibliographic Verification:
+        - Identify accurate title, author (Douglas Adams), and series information.
+        - Determine relevant ISBNs for the primary editions.
+    b. Resource Identification:
+        - Local Libraries: Utilize WorldCat or local library catalogs to check for physical/ebook availability.
+        - Online Retailers: Check major bookstores (e.g., Barnes & Noble, Amazon) for current stock status.
+        - Used Book Market: Search platforms like AbeBooks or ThriftBooks for older, collectible, or lower-cost copies.
+        - Digital Platforms: Verify availability on e-reader (Kindle, EPUB) and audiobook platforms (Audible).
+    c. Procurement Plan:
+        - Select the preferred format (e.g., physical copy, audiobook).
+        - Verify local availability versus shipping/download times.
+        - Initiate purchase or request loan.
+
+3. Final Deliverable:
+    - A consolidated list of acquisition options, including retailers and library availability status.
