@@ -58,7 +58,7 @@ that can jump either -100 or -30 years.
 async def main():
     # running agents
     initial_thoughts = []
-    n_candidates = 2
+    n_candidates = 3
     for i in range(n_candidates):
         resp = await Runner.run(
             generator, input=f"Problem: {problem}\nThink of a first step."
