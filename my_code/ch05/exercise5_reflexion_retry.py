@@ -16,9 +16,8 @@ client = AsyncOpenAI(
     api_key=os.getenv("GEMINI_API_KEY"),
     base_url="https://generativelanguage.googleapis.com/v1beta/openai/",
 )
-model_name = 'gemini-3-flash-preview'
-# model_name = 'gemini-3.6-flash'
-# model_name = 'gemini-3.5-flash'
+# model_name = 'gemini-3-flash-preview'
+model_name = 'gemini-3.6-flash'
 # model_name = 'gemini-3.1-flash-lite'
 
 def get_reflexion_solver_instructions(
@@ -44,8 +43,8 @@ solver = Agent(
 def check_answer(days: int) -> bool:
     """Check if answer is correct
     return boolean"""
-    # correct = days == 26
-    correct = days == 42
+    correct = days == 26
+    # correct = days == 42
     print(f'{correct=}')
     return correct
 
