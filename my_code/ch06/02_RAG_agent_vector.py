@@ -17,8 +17,8 @@ client_agent = AsyncOpenAI(
 )
 # model_name = 'gemini-3-flash-preview'
 # model_name = 'gemini-3.6-flash'
-# model_name = 'gemini-3.1-flash-lite'
-model_name = "gemini-2.5-pro"
+model_name = 'gemini-3.1-flash-lite'
+# model_name = "gemini-2.5-pro"
 
 # ------------------------------------------------------------------
 # 1. Load + chunk the script
