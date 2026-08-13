@@ -179,3 +179,6 @@ gen_images/
 
 # exercies
 my_code/ch06/chroma_db
+chapter_06/chroma_script_store
+chapter_06/chroma_script_store/chroma.sqlite3
+chapter_06/chroma_script_store/be5c1554-569b-4b5c-93a5-652a28f1720d/length.bin
