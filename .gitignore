@@ -175,3 +175,7 @@ cython_debug/
 
 # generated images
 gen_images/
+
+
+# exercies
+my_code/ch06/chroma_db
