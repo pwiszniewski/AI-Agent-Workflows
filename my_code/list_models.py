@@ -1,0 +1,66 @@
+from google import genai
+
+import os
+from openai import AsyncOpenAI
+from agents import OpenAIChatCompletionsModel
+from pydantic import BaseModel
+from dotenv import load_dotenv
+load_dotenv()    
+# client_agent = AsyncOpenAI(
+#     api_key=os.getenv("GEMINI_API_KEY"),
+#     base_url="https://generativelanguage.googleapis.com/v1beta/openai/",
+# )
+
+client = genai.Client(api_key=os.getenv("GEMINI_API_KEY"))
+for model in client.models.list():
+    print(model.name)
+
+# models/gemini-2.5-flash
+# models/gemini-2.5-pro
+# models/gemini-2.5-flash-preview-tts
+# models/gemini-2.5-pro-preview-tts
+# models/gemma-4-26b-a4b-it
+# models/gemma-4-31b-it
+# models/gemini-flash-latest
+# models/gemini-flash-lite-latest
+# models/gemini-pro-latest
+# models/gemini-2.5-flash-lite
+# models/gemini-2.5-flash-image
+# models/gemini-3-flash-preview
+# models/gemini-3.1-pro-preview
+# models/gemini-3.1-pro-preview-customtools
+# models/gemini-3.1-flash-lite-preview
+# models/gemini-3.1-flash-lite
+# models/gemini-3-pro-image-preview
+# models/gemini-3-pro-image
+# models/nano-banana-pro-preview
+# models/gemini-3.1-flash-image
+# models/gemini-3.1-flash-lite-image
+# models/gemini-3.5-flash
+# models/gemini-3.5-flash-lite
+# models/gemini-omni-flash-preview
+# models/gemini-3.6-flash
+# models/gemini-3.7-flash
+# models/lyria-3-clip-preview
+# models/lyria-3-pro-preview
+# models/gemini-3.1-flash-tts-preview
+# models/gemini-robotics-er-1.6-preview
+# models/gemini-robotics-er-2-preview
+# models/gemini-2.5-computer-use-preview-10-2025
+# models/antigravity-preview-05-2026
+# models/deep-research-max-preview-04-2026
+# models/deep-research-preview-04-2026
+# models/deep-research-pro-preview-12-2025
+# models/gemini-embedding-001
+# models/gemini-embedding-2-preview
+# models/gemini-embedding-2
+# models/aqa
+# models/veo-3.1-generate-preview
+# models/veo-3.1-fast-generate-preview
+# models/veo-3.1-lite-generate-preview
+# models/gemini-2.5-flash-native-audio-latest
+# models/gemini-2.5-flash-native-audio-preview-09-2025
+# models/gemini-2.5-flash-native-audio-preview-12-2025
+# models/gemini-3.1-flash-live-preview
+# models/gemini-robotics-er-2-streaming-preview
+# models/gemini-3.5-live-translate-preview
